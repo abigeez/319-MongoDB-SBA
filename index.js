@@ -1,6 +1,11 @@
 const express = require("express");
+
 const app = express();
-//register view engine
+
+import dotenv from 'dotenv';
+dotenv.config();
+
+console.log(process.env) 
 
 const fs = require('fs');
 const port = 3000;
