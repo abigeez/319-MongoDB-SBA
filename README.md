@@ -1,0 +1,1 @@
+I'm Abigail Garner and this is my mongodb SBA. So far, I've used Node, Express and MongoDb technologies to start my server and to link my MongoDB Atlas to my application. I have installed all the necessary packages, such as nodemon, in addition to the others already mentioned. 
