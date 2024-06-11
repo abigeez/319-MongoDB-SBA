@@ -1,8 +1,12 @@
-const http = require('http');
-const server = http.createServer((req,res) => {
-    console.log(req.url,req.method);
-});
+const express = require("express");
+const app = express();
+//register view engine
 
-server.listen(3000, 'localhost', () => {
-    console.log('listening for requests on port 3000')
+const fs = require('fs');
+const port = 3000;
+
+
+app.listen(port, () =>  {
+
+    console.log(`Server listening on port: ${port}.`)
 });
