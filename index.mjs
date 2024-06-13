@@ -22,7 +22,6 @@ app.listen(port, () =>  {
 
 app.listen(3000);
 
-app.get('/',(req,res) => {
+app.use("/posts",posts)
 
-res.send();
-});
+
